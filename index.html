@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="description"
+        content="VALENBUD — usługi remontowe i wykończeniowe w Darłowie i okolicach. Sprawdź ofertę i zapytaj o bezpłatną wycenę."
+    >
     <title>VALENBUD | Usługi remontowe</title>
 
     <link rel="stylesheet" href="./css/style.css">
 </head>
-    <body> 
+<body>
         <header> 
             <nav aria-label="Główna nawigacja"> <a href="#hero">VALENBUD</a>
 
@@ -150,31 +154,19 @@
 
                 <div>
                     <article>
-                        <img
-                            src=""
-                            alt="Przykładowa realizacja remontu salonu"
-                            loading="lazy"
-                        >
+                        <!-- Zdjęcie realizacji dodamy później. -->
                         <h3>Remont salonu</h3>
                         <p>Odświeżenie wnętrza i nowoczesne wykończenie.</p>
                     </article>
 
                     <article>
-                        <img
-                            src=""
-                            alt="Przykładowa realizacja wykończenia łazienki"
-                            loading="lazy"
-                        >
+                        <!-- Zdjęcie realizacji dodamy później. -->
                         <h3>Wykończenie łazienki</h3>
                         <p>Układanie płytek i staranne wykończenie detali.</p>
                     </article>
 
                     <article>
-                        <img
-                            src=""
-                            alt="Przykładowa realizacja malowania wnętrza"
-                            loading="lazy"
-                        >
+                        <!-- Zdjęcie realizacji dodamy później. -->
                         <h3>Malowanie wnętrza</h3>
                         <p>Odświeżenie ścian i estetyczne wykończenie pomieszczeń.</p>
                     </article>
@@ -232,95 +224,52 @@
                     </details>
                 </div>
             </section>
-            <section id="contact"> 
-                <div>
+            <section id="contact">
+                <div class="contact-header">
                     <p>SKONTAKTUJ SIĘ Z NAMI</p>
+
                     <h2>Porozmawiajmy o Twoim projekcie</h2>
+
                     <p>
                         Planujesz remont lub wykończenie wnętrza?
-                        Opowiedz nam o swoim projekcie, a wspólnie
-                        omówimy możliwe rozwiązania.
+                        Skontaktuj się z nami, aby omówić swój projekt
+                        i uzyskać indywidualną wycenę.
                     </p>
                 </div>
 
-                <div>
-                    <h3>Dane kontaktowe</h3>
+                <div class="contact-content">
+                    <div class="contact-intro">
+                        <h3>Dane kontaktowe</h3>
 
-                    <p>
-                        <strong>Obszar działania:</strong>
-                        Darłowo i okolice
-                    </p>
+                        <p>
+                            Jesteśmy dostępni, aby porozmawiać
+                            o Twoim projekcie i odpowiedzieć na pytania.
+                        </p>
+                    </div>
 
-                    <p>
-                        <strong>Telefon:</strong>
-                        <a href="tel:+48500000000">+48 500 000 000</a>
-                    </p>
+                    <div class="contact-details">
+                        <div>
+                            <h4>Obszar działania</h4>
+                            <p>Darłowo i okolice</p>
+                        </div>
 
-                    <p>
-                        <strong>E-mail:</strong>
-                        <a href="mailto:kontakt@valenbud.pl">kontakt@valenbud.pl</a>
-                    </p>
+                        <div>
+                            <h4>Telefon</h4>
+                            <a href="tel:+48500000000">+48 500 000 000</a>
+                        </div>
+
+                        <div>
+                            <h4>E-mail</h4>
+                            <a href="mailto:kontakt@valenbud.pl">
+                                kontakt@valenbud.pl
+                            </a>
+                        </div>
+
+                        <a href="mailto:kontakt@valenbud.pl" class="btn btn--primary">
+                            Napisz do nas
+                        </a>
+                    </div>
                 </div>
-
-                <form id="contact-form">
-                    <div>
-                        <label for="name">Imię i nazwisko</label>
-                        <input
-                            type="text"
-                            id="name"
-                            name="name"
-                            autocomplete="name"
-                            required
-                        >
-                    </div>
-
-                    <div>
-                        <label for="email">Adres e-mail</label>
-                        <input
-                            type="email"
-                            id="email"
-                            name="email"
-                            autocomplete="email"
-                            required
-                        >
-                    </div>
-
-                    <div>
-                        <label for="phone">Numer telefonu</label>
-                        <input
-                            type="tel"
-                            id="phone"
-                            name="phone"
-                            autocomplete="tel"
-                        >
-                    </div>
-
-                    <div>
-                        <label for="service">Rodzaj usługi</label>
-                        <select id="service" name="service" required>
-                            <option value="">Wybierz usługę</option>
-                            <option value="remont">Remont mieszkania</option>
-                            <option value="wykonczenie">Wykończenie wnętrz</option>
-                            <option value="plytki">Układanie płytek</option>
-                            <option value="malowanie">Szpachlowanie i malowanie</option>
-                            <option value="inne">Inne prace</option>
-                        </select>
-                    </div>
-
-                    <div>
-                        <label for="message">Opisz swój projekt</label>
-                        <textarea
-                            id="message"
-                            name="message"
-                            rows="5"
-                            required
-                        ></textarea>
-                    </div>
-
-                    <button type="submit" class="btn btn--primary">
-                        Wyślij zapytanie
-                    </button>
-                </form>
             </section>
         </main>
 
@@ -359,5 +308,5 @@
         </footer>
 
         <script src="./js/script.js"></script> 
-    </body>
+</body>
 </html>

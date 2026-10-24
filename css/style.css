@@ -314,6 +314,14 @@ main > section > div {
     background-color: var(--color-emerald);
 }
 
+.btn:focus-visible,
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
+    outline: 3px solid var(--color-gold);
+    outline-offset: 4px;
+}
+
 /* --- Services --- */
 
 #services article {

@@ -448,6 +448,16 @@ main > section > div {
     margin-bottom: var(--space-md);
 }
 
+/* Project images */
+
+#projects article img {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    border-radius: var(--radius-md);
+    margin-bottom: var(--space-md);
+}
+
 /* --- Projects responsive layout --- */
 
 @media (max-width: 900px) {

@@ -96,11 +96,23 @@ header nav a {
     text-decoration: none;
 }
 
-header nav > a:first-child {
+header nav > .brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
     flex-shrink: 0;
+    color: var(--color-emerald);
     font-size: 24px;
     font-weight: 700;
     letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.brand img {
+    display: block;
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
 }
 
 header nav ul a {
@@ -723,11 +735,24 @@ footer > p {
 
 /* Footer typography */
 
-footer > div:first-child > a {
+footer > div:first-child > .footer-brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: var(--space-sm);
+    color: var(--color-ivory);
     font-size: 24px;
     font-weight: 700;
     letter-spacing: 2px;
     text-decoration: none;
+}
+
+footer .footer-brand img {
+    display: block;
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    flex-shrink: 0;
 }
 
 footer h3 {

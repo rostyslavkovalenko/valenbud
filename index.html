@@ -7,13 +7,36 @@
         name="description"
         content="VALENBUD — usługi remontowe i wykończeniowe w Darłowie i okolicach. Sprawdź ofertę i zapytaj o bezpłatną wycenę."
     >
+
     <title>VALENBUD | Usługi remontowe</title>
+
+    <!-- Open Graph: podgląd linku -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pl_PL">
+    <meta property="og:site_name" content="VALENBUD">
+    <meta property="og:title" content="VALENBUD — Usługi remontowo-wykończeniowe">
+    <meta property="og:description" content="Solidne remonty i wykończenia wnętrz w Darłowie i okolicach." >
+    <meta property="og:url" content="https://valenbud.vercel.app/">
+    <meta property="og:image" content="https://valenbud.vercel.app/images/hero-interior.jpg">
+    <meta property="og:image:alt" content="Nowoczesne wnętrze po remoncie">
+
+    <!-- Favicon -->
+    <link rel="icon" href="./images/brand/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/brand/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/brand/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="./images/brand/apple-touch-icon.png">
 
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
         <header> 
-            <nav aria-label="Główna nawigacja"> <a href="#hero">VALENBUD</a>
+            <nav aria-label="Główna nawigacja">
+                <a href="#hero" class="brand">
+                    <img src="./images/brand/logo.png" alt="" aria-hidden="true">
+                    <span>VALENBUD</span>
+                </a>
+
+
 
                 <ul id="nav-menu">
                     <li><a href="#about">O firmie</a></li>
@@ -302,7 +325,11 @@
 
         <footer>
             <div>
-                <a href="#hero">VALENBUD</a>
+                <a href="#hero" class="brand footer-brand">
+                    <img src="./images/brand/logo.png" alt="" aria-hidden="true">
+                    <span>VALENBUD</span>
+                </a>
+
 
                 <p>
                     Usługi remontowe i wykończeniowe

@@ -240,7 +240,7 @@ main > section > div {
             rgba(0, 79, 46, 0.50) 55%,
             rgba(0, 79, 46, 0.18) 100%
         ),
-        url("../images/hero-interior.jpg");
+        url("../images/hero-interior.webp");
 
     background-size: cover;
     background-position: center;
